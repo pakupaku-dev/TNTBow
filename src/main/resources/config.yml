@@ -1,0 +1,22 @@
+# 各レベルの爆発威力です。通常のTNTは4.0です。
+levels:
+  1:
+    explosion-power: 2.0
+  2:
+    explosion-power: 4.0
+  3:
+    explosion-power: 6.0
+  4:
+    explosion-power: 8.0
+  5:
+    explosion-power: 10.0
+
+explosion:
+  # trueにすると爆発でブロックが壊れます。
+  break-blocks: true
+  # trueにすると周囲に火がつく場合があります。
+  set-fire: false
+
+arrow:
+  # 連射制限。20 ticks = 約1秒、0で無効です。
+  cooldown-ticks: 10

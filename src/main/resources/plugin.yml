@@ -1,0 +1,23 @@
+name: TNTBow
+version: ${project.version}
+main: jp.kamei.tntbow.TntBowPlugin
+api-version: '26.2'
+description: 通常の弓で撃てる5段階のTNT矢を追加します
+author: kamei
+
+commands:
+  tntbow:
+    description: TNT矢の配布・設定再読み込み
+    usage: /tntbow <give|reload>
+    aliases: [tb]
+
+permissions:
+  tntbow.use:
+    description: TNT矢を使用できます
+    default: true
+  tntbow.give:
+    description: TNT矢を配布できます
+    default: op
+  tntbow.reload:
+    description: TNTBowの設定を再読み込みできます
+    default: op
