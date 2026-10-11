@@ -1,9 +1,9 @@
 name: TNTBow
 version: ${project.version}
-main: jp.kamei.tntbow.TntBowPlugin
+main: jp.pakupaku.tntbow.TntBowPlugin
 api-version: '26.2'
 description: 通常の弓で撃てる5段階のTNT矢を追加します
-author: kamei
+author: pakupaku
 
 commands:
   tntbow:

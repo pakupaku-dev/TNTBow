@@ -1,4 +1,4 @@
-package jp.kamei.tntbow;
+package jp.pakupaku.tntbow;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.command.PluginCommand;

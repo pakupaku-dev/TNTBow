@@ -1,4 +1,4 @@
-package jp.kamei.tntbow;
+package jp.pakupaku.tntbow;
 
 import java.util.HashMap;
 import java.util.Map;
